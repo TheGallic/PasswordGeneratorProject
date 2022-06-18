@@ -203,7 +203,7 @@ public class PasswordGenerator extends JFrame {
 			}
 		});
 		btnGenerate.setFont(new Font("Tahoma", Font.PLAIN, 14));
-		btnGenerate.setBounds(74, 251, 171, 33);
+		btnGenerate.setBounds(58, 251, 190, 33);
 		contentPane.add(btnGenerate);
 
 		JButton btnCopy = new JButton("Copier dans le presse papier");
@@ -223,7 +223,7 @@ public class PasswordGenerator extends JFrame {
 		txfPassword.setToolTipText("Votre nouveau mot de passe apparaîtra ici.");
 		txfPassword.setFont(new Font("Tahoma", Font.BOLD, 14));
 		txfPassword.setEditable(false);
-		txfPassword.setBounds(74, 298, 411, 33);
+		txfPassword.setBounds(58, 298, 427, 33);
 		contentPane.add(txfPassword);
 		txfPassword.setColumns(10);
 	}
